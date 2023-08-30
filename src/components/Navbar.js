@@ -5,7 +5,7 @@ const Navbar = () => {
     <>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><h1>Construction</h1>Just another wordpress site</a>
+  <a class="navbar-brand" href="#"><h3 style={{position:"relative",top:"32px",color:"white"}}>Construction</h3><br/><span>Just another wordpress site</span></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -29,7 +29,7 @@ const Navbar = () => {
         <li class="nav-item">
           <a class="nav-link" href="#">Contact</a>
         </li>
-        
+        <button style={{width:"12rem"}} type="button" class="btn btn-outline-secondary">+91 7008819985</button>
       </ul>
       
     </div>
@@ -44,9 +44,9 @@ const Navbar = () => {
   
     <div class="carousel-item active">
     <div className="carousel-overlay">
-                <h3>Use our trusted service <br/> to build your dream home</h3>
-                <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h6>
-                <h6>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h6>
+                <h3 style={{fontFamily:"Sans-serif"}}>Use our trusted service <br/> to build your dream home</h3>
+                <p style={{fontStyle:"inherit",fontSize:"12px",marginTop:"12px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br/>
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
     </div>
       
       
@@ -54,8 +54,8 @@ const Navbar = () => {
       <div className="contact-form-card">
       <div className="background-image"></div>
       <div className="form-overlay">
-        <h2>Get Free Quote</h2>
-        <h6>As soon as you contact our expert team,this<br/>will be the only form you have to fill in!</h6>
+      <h2 style={{fontSize:"2rem",fontFamily:"serif",color:"whitesmoke"}}>Get Free Quote</h2>
+      <p style={{fontSize:"12px",color:"white"}}>As soon as you contact our expert team,this<br/>will be the only form you have to fill in!</p>
         <form>
           <div className="form-group">
             
@@ -73,8 +73,8 @@ const Navbar = () => {
             
             <textarea id="message" name="message" placeholder="Add your message"></textarea>
           </div>
-          <button type="submit" className="request-callback-button">Request a Callback</button>
-          <h6>100% privacy guaranteed</h6>
+          <button  style={{alignItems:"center",justifyContent:"center",textAlign:"center",display:"flex"}}type="submit" className="request-callback-button ms-4">Request a Callback</button>
+          <strong style={{marginLeft:"14px",marginBottom:"23px",padding:"12px"}}>100% privacy guaranteed</strong>
         </form>
       </div>
     </div>
